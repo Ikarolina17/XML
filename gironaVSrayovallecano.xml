@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LaLiga [
+    <!ELEMENT LaLiga (Jornada+)>
+    <!ELEMENT Jornada (Numero, Fecha, Partido+)>
+    <!ELEMENT Numero (#PCDATA)>
+    <!ELEMENT Fecha (#PCDATA)>
+    <!ELEMENT Partido (Hora, Estadio, Arbitro, EquipoLocal, EquipoVisitante, GolesLocal, GolesVisitante, Estadisticas, JugadoresLocal, JugadoresVisitante)>
+    <!ELEMENT Hora (#PCDATA)>
+    <!ELEMENT Estadio (#PCDATA)>
+    <!ELEMENT Arbitro (#PCDATA)>
+    <!ELEMENT EquipoLocal (#PCDATA)>
+    <!ELEMENT EquipoVisitante (#PCDATA)>
+    <!ELEMENT GolesLocal (#PCDATA)>
+    <!ELEMENT GolesVisitante (#PCDATA)>
+    <!ELEMENT Estadisticas (PosesionLocal, PosesionVisitante, TirosGolLocal, TirosGolVisitante, TirosLocal, TirosVisitante, CornersLocal, CornersVisitante, SalvadasLocal, SalvadasVisitante, TarjetasAmarillas, TarjetasRojas, Faltas)>
+    <!ELEMENT PosesionLocal (#PCDATA)>
+    <!ELEMENT PosesionVisitante (#PCDATA)>
+    <!ELEMENT TirosGolLocal (#PCDATA)>
+    <!ELEMENT TirosGolVisitante (#PCDATA)>
+    <!ELEMENT TirosLocal (#PCDATA)>
+    <!ELEMENT TirosVisitante (#PCDATA)>
+    <!ELEMENT CornersLocal (#PCDATA)>
+    <!ELEMENT CornersVisitante (#PCDATA)>
+    <!ELEMENT SalvadasLocal (#PCDATA)>
+    <!ELEMENT SalvadasVisitante (#PCDATA)>
+    <!ELEMENT TarjetasAmarillas (#PCDATA)>
+    <!ELEMENT TarjetasRojas (#PCDATA)>
+    <!ELEMENT Faltas (#PCDATA)>
+    <!ELEMENT JugadoresLocal (Jugador+, SuplentesLocal)>
+    <!ELEMENT JugadoresVisitante (Jugador+, SuplentesVisitante)>
+    <!ELEMENT Jugador (Numero, Nombre)>
+    <!ELEMENT Numero (#PCDATA)>
+    <!ELEMENT Nombre (#PCDATA)>
+    <!ELEMENT SuplentesLocal (Jugador+)>
+    <!ELEMENT SuplentesVisitante (Jugador+)>
+]>
+
+<LaLiga>
+    <Jornada>
+        <Numero>1</Numero>
+        <Fecha>2024-09-25</Fecha>
+        <Partido>
+            <Hora>10:00</Hora>
+            <Estadio>Municipal de Montilivi</Estadio>
+            <Arbitro>Juan Martínez Munuera</Arbitro>
+            <EquipoLocal>Girona</EquipoLocal>
+            <EquipoVisitante>Rayo Vallecano</EquipoVisitante>
+            <GolesLocal>0</GolesLocal>
+            <GolesVisitante>0</GolesVisitante>
+            <Estadisticas>
+                <PosesionLocal>70.6%</PosesionLocal>
+                <PosesionVisitante>29.4%</PosesionVisitante>
+                <TirosGolLocal>1</TirosGolLocal>
+                <TirosGolVisitante>0</TirosGolVisitante>
+                <TirosLocal>11</TirosLocal>
+                <TirosVisitante>2</TirosVisitante>
+                <CornersLocal>4</CornersLocal>
+                <CornersVisitante>3</CornersVisitante>
+                <SalvadasLocal>0</SalvadasLocal>
+                <SalvadasVisitante>1</SalvadasVisitante>
+                <TarjetasAmarillas>7</TarjetasAmarillas>
+                <TarjetasRojas>0</TarjetasRojas>
+                <Faltas>48</Faltas>
+            </Estadisticas>
+            <JugadoresLocal>
+                <Jugador>
+                    <Numero>13</Numero>
+                    <Nombre>Paulo Gazzaniga</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>17</Numero>
+                    <Nombre>Daley Blind</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>5</Numero>
+                    <Nombre>David López</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>3</Numero>
+                    <Nombre>Miguel Gutiérrez</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>4</Numero>
+                    <Nombre>Arnau Martínez</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>21</Numero>
+                    <Nombre>Yangel Herrera</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>23</Numero>
+                    <Nombre>Iván Martín</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>20</Numero>
+                    <Nombre>Bryan Gil</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>11</Numero>
+                    <Nombre>Arnaut Danjuma</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>8</Numero>
+                    <Nombre>Viktor Tsygankov</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>9</Numero>
+                    <Nombre>Abel Ruiz</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>7</Numero>
+                    <Nombre>Cristhian Stuani</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>10</Numero>
+                    <Nombre>Yáser Asprilla</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>27</Numero>
+                    <Nombre>Gabriel Misehouy</Nombre>
+                </Jugador>
+                <SuplentesLocal>
+                    <Jugador>
+                        <Numero>19</Numero>
+                        <Nombre>Bojan Miovski</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>16</Numero>
+                        <Nombre>Alejandro Francés</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>15</Numero>
+                        <Nombre>Juanpe</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>22</Numero>
+                        <Nombre>Jhon Solís</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>24</Numero>
+                        <Nombre>Portu</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>18</Numero>
+                        <Nombre>Ladislav Krejcí</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>6</Numero>
+                        <Nombre>Donny van de Beek</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>25</Numero>
+                        <Nombre>Pau López</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>14</Numero>
+                        <Nombre>Oriol Romeu</Nombre>
+                    </Jugador>
+                </SuplentesLocal>
+            </JugadoresLocal>
+            <JugadoresVisitante>
+                <Jugador>
+                    <Numero>13</Numero>
+                    <Nombre>Augusto Batalla</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>16</Numero>
+                    <Nombre>Abdul Mumin</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>24</Numero>
+                    <Nombre>Florian Lejeune</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>3</Numero>
+                    <Nombre>Pep Chavarría</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>19</Numero>
+                    <Nombre>Jorge de Frutos</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>20</Numero>
+                    <Nombre>Iván Balliu</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>23</Numero>
+                    <Nombre>Óscar Valentín</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>4</Numero>
+                    <Nombre>Pedro Díaz</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>15</Numero>
+                    <Nombre>Gerard Gumbau</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>21</Numero>
+                    <Nombre>Adri Embarba</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>18</Numero>
+                    <Nombre>Álvaro García</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>2</Numero>
+                    <Nombre>Andrei Ratiu</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>14</Numero>
+                    <Nombre>Sergio Camello</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>11</Numero>
+                    <Nombre>Randy Nteka</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>7</Numero>
+                    <Nombre>Isi Palazón</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>17</Numero>
+                    <Nombre>Unai López</Nombre>
+                </Jugador>
+                <SuplentesVisitante>
+                    <Jugador>
+                        <Numero>8</Numero>
+                        <Nombre>Óscar Trejo</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>6</Numero>
+                        <Nombre>Pathé Ciss</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>12</Numero>
+                        <Nombre>Sergi Guardiola</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>10</Numero>
+                        <Nombre>James Rodríguez</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>5</Numero>
+                        <Nombre>Aridane Hernández</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <

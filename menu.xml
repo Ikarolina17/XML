@@ -1,0 +1,42 @@
+</xml version="1.0"? encoding="UTF-8">
+<!DOCTYPE menu[
+<!DOCTYPE Tabla [
+    <!ELEMENT Tabla (Fila+)>
+    <!ELEMENT Fila (Columna+)>
+    <!ELEMENT Columna (#PCDATA)>
+    <!ATTLIST Columna nombre CDATA #REQUIRED>
+]>
+
+<tabla>
+    <fila>
+        <columna nombre="Nombre">Gofres Belgas</columuna>
+        <columna nombre="Precio(en euros)">5.95</columna>
+        <columna nombre="Descripcion">Dos de nuestros famosos Gofres belgas con abundante sirope</columna>
+        <columna nombre="Calorias">650</calorias>
+    </fila>
+    <fila>
+        <columna nombre="Nombre">Gofres Belgas con fresas</columuna>
+        <columna nombre="Precio(en euros)">7.95</columna>
+        <columna nombre="Descripcion">Ligeros gofres belgas cubiertos de fresas y nata montada</columna>
+        <columna nombre="Calorias">900</calorias>
+    </fila>
+    <fila>
+        <columna nombre="Nombre">Gofres Belgas con frutas del bosque</columuna>
+        <columna nombre="Precio(en euros)">8.95</columna>
+        <columna nombre="Descripcion">Ligeros gofres belgas cubiertos con frutas del bosque y nata montada</columna>
+        <columna nombre="Calorias">900</calorias>
+    </fila>
+    <fila>
+        <columna nombre="Nombre">Tostada francesa</columuna>
+        <columna nombre="Precio(en euros)">4.50</columna>
+        <columna nombre="Descripcion">Dos gruesas rebanadas de nuestro pan frances caasero</columna>
+        <columna nombre="Calorias">600</calorias>
+    </fila>
+    <fila>
+        <columna nombre="Nombre">Desayuno de la casa</columuna>
+        <columna nombre="Precio(en euros)">6.95</columna>
+        <columna nombre="Descripcion">Dos huevos, bacon o salchicha, tostada y patatas fritas</columna>
+        <columna nombre="Calorias">950</calorias>
+    </fila>
+    </tabla>
+]

@@ -1,0 +1,28 @@
+</xml version="1.0"? encoding="UTF-8">
+<!DOCTYPE Pedido[
+<!ELEMENT Pedido (Destinatario, Articulo, DireccionEntrega, FechaEntrega)>
+<!ELEMENT Destinatario (#PCDATA)>
+<!ELEMENT Articulo (Nombre)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT DireccionEntrega (Calle, Numero, Piso, Letra)>
+<!ELEMENT Calle (#PCDATA)>
+<!ELEMENT Numero (#PCDATA)>
+<!ELEMENT Piso (#PCDATA)>
+<!ELEMENT Letra (#PCDATA)>
+<!ELEMENT FechaEntrega (#PCDATA)>
+
+]>
+
+<Pedido>
+    <Destinatario>Juan Delgado Martinez</Destinatario>
+    <Articulo>
+        <Nombre>Bicicleta Bianchi Oltre</Nombre>
+    </Articulo>
+    <DireccionEntrega>
+        <Calle>Reforma</Calle>
+        <Numero>423</Numero>
+        <Piso>Tercer piso</Piso>
+        <Letra> Letra A</Letra>
+    </DireccionEntrega>
+    <FechaEntrega>19-09-2021</FechaEntrega>
+    </Pedido>

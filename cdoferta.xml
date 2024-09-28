@@ -1,0 +1,58 @@
+</xml version="1.0"? encoding="UTF-8">
+<!DOCTYPE cdoferta[
+<!DOCTYPE Tabla [
+    <!ELEMENT Tabla (Fila+)>
+    <!ELEMENT Fila (Columna+)>
+    <!ELEMENT Columna (#PCDATA)>
+    <!ATTLIST Columna nombre CDATA #REQUIRED>
+]>
+
+<tabla>
+    <fila>
+        <columna nombre="Titulo"> Still got the blues</columna>
+        <columna nombre="Artista"> Gary Moore </columna>
+        <columna nombre="Pais"> UK </columna>
+        <columna nombre="Compañia discografica">Precio</columna>
+        <columna nombre="Precio">10.20</columna>
+        <columna nombre="Año de publicacion"> 1990</columna>
+    </fila>
+    <fila>
+        <columna nombre="Titulo">One night only</columna>
+        <columna nombre="Artista">Bee Gees</columna>
+        <columna nombre="Pais">UK</columna>
+        <columna nombre="Compañia discografica">Polyydor</columna>
+        <columna nombre="Precio">10.90</columna>
+        <columna nombre="Año de publicacion">1998</columna>
+    </fila>
+    <fila>
+        <columna nombre="Titulo">When a man loves a woman</columna>
+        <columna nombre="Artista">Percy Sledge</columna>
+        <columna nombre="Pais">USA</columna>
+        <columna nombre="Compañia discografica">Atlantic</columna>
+        <columna nombre="Precio">8.70</columna>
+        <columna nombre="Año de publicacion">1987</columna>
+    </fila>
+    <fila>
+        <columna nombre="Titulo">Big Willie style</columna>
+        <columna nombre="Artista">Will Smith</columna>
+        <columna nombre="Pais">USA</columna>
+        <columna nombre="Compañia discografica">Columbia</columna>
+        <columna nombre="Precio">9.90</columna>
+        <columna nombre="Año de publicacion">1997</columna>
+    </fila>
+    <fila>
+        <columna nombre="Titulo">La cancion de Juan perro</columna>
+        <columna nombre="Artista">Radio Futura</columna>
+        <columna nombre="Pais">España</columna>
+        <columna nombre="Compañia discografica">Sony Music-Ariola</columna>
+        <columna nombre="Precio">9.90</columna>
+        <columna nombre="Año de publicacion">1987</columna>
+    </fila>
+    <fila>
+        <columna nombre="Titulo">The dock of the bay</columna>
+        <columna nombre="Artista">Otis Redding</columna>
+        <columna nombre="Pais">USA</columna>
+        <columna nombre="Compañia discografica">Atlantic</columna>
+        <columna nombre="Precio">7.90</columna>
+        <columna nombre="Año de publicacion">1987</columna>
+    </fila>

@@ -1,0 +1,29 @@
+</xml version="1.0"? encoding="UTF-8">
+<!DOCTYPE mensaje[
+<!ELEMENT mensaje (remite, destinatario, asunto, texto)>
+<!ELEMENT remite (nombre, email)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT destinatario (nombre, email)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)>
+<!ELEMENT texto (saludo, parrafo, despedida)>
+]>
+
+<mensaje>
+    <remite>
+        <nombre>Alfredo Reino</nombre>
+        <email>alf@ibium.com</email>
+    </remite>
+    <destinatario>
+        <nombre>Bill Clinton</nombre>
+        <email> president@whitehouse.com</email>
+    </destinatario>
+    <asunto>Hola Bill</asunto>
+    <texto>
+        <saludo>Hola, ¿qué tal? Es un placer tener la oportunidad de dirigirme a ti, Bill. Tu liderazgo y dedicación a causas importantes han dejado una huella significativa en el mundo. Espero que estés disfrutando de un buen día y rodeado de las personas que aprecias.</saludo>
+        <parrafo>Hace mucho tiempo que no escribes. A ver si llamas y quedamos pronto, Bill. Me encantaría ponernos al día y escuchar sobre tus proyectos actuales. Siempre es enriquecedor charlar contigo y compartir ideas. Espero que estés bien y que podamos organizar un encuentro en el futuro cercano.</parrafo>
+        <despedida>Un saludo, Bill. Ha sido un placer compartir este tiempo contigo. Espero que podamos reconectar pronto y seguir conversando sobre los temas que nos apasionan. Cuídate mucho y hasta la próxima.</despedida>
+    </texto>
+</mensaje>    

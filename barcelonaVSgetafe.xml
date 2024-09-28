@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LaLiga [
+    <!ELEMENT LaLiga (Jornada+)>
+    <!ELEMENT Jornada (Numero, Fecha, Partido+)>
+    <!ELEMENT Numero (#PCDATA)>
+    <!ELEMENT Fecha (#PCDATA)>
+    <!ELEMENT Partido (Hora, Estadio, Arbitro, EquipoLocal, EquipoVisitante, GolesLocal, GolesVisitante, Estadisticas, JugadoresLocal, JugadoresVisitante)>
+    <!ELEMENT Hora (#PCDATA)>
+    <!ELEMENT Estadio (#PCDATA)>
+    <!ELEMENT Arbitro (#PCDATA)>
+    <!ELEMENT EquipoLocal (#PCDATA)>
+    <!ELEMENT EquipoVisitante (#PCDATA)>
+    <!ELEMENT GolesLocal (#PCDATA)>
+    <!ELEMENT GolesVisitante (#PCDATA)>
+    <!ELEMENT Estadisticas (PosesionLocal, PosesionVisitante, TirosGolLocal, TirosGolVisitante, TirosLocal, TirosVisitante, CornersLocal, CornersVisitante, SalvadasLocal, SalvadasVisitante, TarjetasAmarillas, TarjetasRojas, Faltas)>
+    <!ELEMENT PosesionLocal (#PCDATA)>
+    <!ELEMENT PosesionVisitante (#PCDATA)>
+    <!ELEMENT TirosGolLocal (#PCDATA)>
+    <!ELEMENT TirosGolVisitante (#PCDATA)>
+    <!ELEMENT TirosLocal (#PCDATA)>
+    <!ELEMENT TirosVisitante (#PCDATA)>
+    <!ELEMENT CornersLocal (#PCDATA)>
+    <!ELEMENT CornersVisitante (#PCDATA)>
+    <!ELEMENT SalvadasLocal (#PCDATA)>
+    <!ELEMENT SalvadasVisitante (#PCDATA)>
+    <!ELEMENT TarjetasAmarillas (#PCDATA)>
+    <!ELEMENT TarjetasRojas (#PCDATA)>
+    <!ELEMENT Faltas (#PCDATA)>
+    <!ELEMENT JugadoresLocal (Jugador+, SuplentesLocal)>
+    <!ELEMENT JugadoresVisitante (Jugador+, SuplentesVisitante)>
+    <!ELEMENT Jugador (Numero, Nombre)>
+    <!ELEMENT Numero (#PCDATA)>
+    <!ELEMENT Nombre (#PCDATA)>
+    <!ELEMENT SuplentesLocal (Jugador+)>
+    <!ELEMENT SuplentesVisitante (Jugador+)>
+]>
+
+<LaLiga>
+    <Jornada>
+        <Numero>2</Numero>
+        <Fecha>2024-09-25</Fecha>
+        <Partido>
+            <Hora>12:00</Hora>
+            <Estadio>Estadi Olímpic Lluís Companys</Estadio>
+            <Arbitro>Pablo González Fuertes</Arbitro>
+            <EquipoLocal>Barcelona</EquipoLocal>
+            <EquipoVisitante>Getafe</EquipoVisitante>
+            <GolesLocal>1</GolesLocal>
+            <GolesVisitante>0</GolesVisitante>
+            <Estadisticas>
+                <PosesionLocal>77.6%</PosesionLocal>
+                <PosesionVisitante>22.4%</PosesionVisitante>
+                <TirosGolLocal>4</TirosGolLocal>
+                <TirosGolVisitante>1</TirosGolVisitante>
+                <TirosLocal>15</TirosLocal>
+                <TirosVisitante>7</TirosVisitante>
+                <CornersLocal>7</CornersLocal>
+                <CornersVisitante>5</CornersVisitante>
+                <SalvadasLocal>1</SalvadasLocal>
+                <SalvadasVisitante>3</SalvadasVisitante>
+                <TarjetasAmarillas>2</TarjetasAmarillas>
+                <TarjetasRojas>0</TarjetasRojas>
+                <Faltas>25</Faltas>
+            </Estadisticas>
+            <JugadoresLocal>
+                <Jugador>
+                    <Numero>13</Numero>
+                    <Nombre>Iñaki Peña</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>5</Numero>
+                    <Nombre>Iñigo Martínez</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>2</Numero>
+                    <Nombre>Pau Cubarsí</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>32</Numero>
+                    <Nombre>Héctor Fort</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>3</Numero>
+                    <Nombre>Alejandro Balde</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>35</Numero>
+                    <Nombre>Gerard Martín</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>23</Numero>
+                    <Nombre>Jules Koundé</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>14</Numero>
+                    <Nombre>Pablo Torre</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>7</Numero>
+                    <Nombre>Ferran Torres</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>17</Numero>
+                    <Nombre>Marc Casadó</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>24</Numero>
+                    <Nombre>Eric García</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>9</Numero>
+                    <Nombre>Robert Lewandowski</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>8</Numero>
+                    <Nombre>Pedri</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>11</Numero>
+                    <Nombre>Raphinha</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>19</Numero>
+                    <Nombre>Lamine Yamal</Nombre>
+                </Jugador>
+                <SuplentesLocal>
+                    <Jugador>
+                        <Numero>41</Numero>
+                        <Nombre>Guille Fernández</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>36</Numero>
+                        <Nombre>Sergi Domínguez</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>10</Numero>
+                        <Nombre>Ansu Fati</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>42</Numero>
+                        <Nombre>Toni Fernández</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>18</Numero>
+                        <Nombre>Pau Víctor</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>40</Numero>
+                        <Nombre>Áron Yaakobishvili</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>39</Numero>
+                        <Nombre>Andrés Cuenca</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>26</Numero>
+                        <Nombre>Ander Astralaga</Nombre>
+                    </Jugador>
+                </SuplentesLocal>
+            </JugadoresLocal>
+            <JugadoresVisitante>
+                <Jugador>
+                    <Numero>13</Numero>
+                    <Nombre>David Soria</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>15</Numero>
+                    <Nombre>Omar Alderete</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>4</Numero>
+                    <Nombre>Juan Berrocal</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>5</Numero>
+                    <Nombre>Luis Milla</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>21</Numero>
+                    <Nombre>Juan Iglesias</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>2</Numero>
+                    <Nombre>Djené</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>16</Numero>
+                    <Nombre>Diego Rico</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>20</Numero>
+                    <Nombre>Jesús Santiago</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>8</Numero>
+                    <Nombre>Mauro Arambarri</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>11</Numero>
+                    <Nombre>Carles Aleñá</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>9</Numero>
+                    <Nombre>Borja Mayoral</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>7</Numero>
+                    <Nombre>Álex Sola</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>36</Numero>
+                    <Nombre>Abdoulaye Keita</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>17</Numero>
+                    <Nombre>Carles Pérez</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>6</Numero>
+                    <Nombre>Christantus Uche</Nombre>
+                </Jugador>
+                <Jugador>
+                    <Numero>10</Numero>
+                    <Nombre>Bertug Yildirim</Nombre>
+                </Jugador>
+                <SuplentesVisitante>
+                    <Jugador>
+                        <Numero>19</Numero>
+                        <Nombre>Peter González</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>29</Numero>
+                        <Nombre>Coba Da Costa</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>26</Numero>
+                        <Nombre>Alberto Risco</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>1</Numero>
+                        <Nombre>Jirí Letácek</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>35</Numero>
+                        <Nombre>Djordjije Medenica</Nombre>
+                    </Jugador>
+                    <Jugador>
+                        <Numero>22</Numero>
+                        <Nombre>Domingos Duarte</Nombre>
+                    </Jugador>

@@ -1,0 +1,17 @@
+</xml version="1.0"? encoding="UTF-8">
+<!DOCTYPE invoice[
+    <!ELEMENT invoice (bussines_contact, invoice_num, date, terms_payment, description)>
+    <!LEMENT  bussines_contact (#PCDATA)>
+    <!ELEMENT invoice_num (#PCDATA)>
+    <!ELEMENT date (#PCDATA)>
+    <!ELEMENT terms_payment (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+]>
+
+<invoice>
+    <bussines_contact></bussines_contact>
+    <invoice_num></invoice_num>
+    <date></date>
+    <terms_payment></terms_payment>
+    <description></description>
+</invoice>
